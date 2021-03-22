@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Manga extends Model
 {
     use HasFactory;
+    public $timestamps = false;
+
+    public function chapters(){
+        return $this->hasMany(Chapter::class);
+    }
 }
