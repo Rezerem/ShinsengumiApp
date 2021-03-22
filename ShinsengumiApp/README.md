@@ -65,5 +65,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 Running the localhost serve:
 ```bash
-php artisan run serve
+php artisan serve
 ```
